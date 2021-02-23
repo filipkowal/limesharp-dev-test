@@ -55,10 +55,9 @@ function next_binary_number(a) {
     }
   }
   result[0] = 1;
-  for (let i = 1; i < a.length; i++) {
+  for (let i = 1; i <= a.length; i++) {
     result[i] = 0;
   }
-  result[a.length] = 0;
   return result;
 }
 
